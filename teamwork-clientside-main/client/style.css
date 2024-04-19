@@ -1,0 +1,361 @@
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 100vw;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-container .login-section,
+.signup-container .signup-section {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 20em;
+  width: 19em;
+  border: 2px solid #000;
+  border-radius: 1em;
+  padding: 0;
+}
+
+.login-container,
+.signup-container {
+  width: auto;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-container .section-title,
+.signup-container .section-title {
+  text-align: center;
+  margin: 0;
+}
+
+.login-container input,
+.signup-container input {
+  margin: 0.625em;
+  padding: 0.625em;
+  width: 80%;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
+
+.login-container .button,
+.signup-container .button {
+  padding: 0.625em;
+  width: 80%;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  color: #000;
+  cursor: pointer;
+  margin: 0.5em 1.5em;
+}
+
+.login-container .button:hover,
+.signup-container .button:hover {
+  background-color: #fff;
+}
+
+.login-container .login-section .login-form,
+.signup-container .signup-section .signup-form {
+  justify-content: center;
+  align-items: center;
+  margin: 0 1em 0.5em 1.6em;
+}
+
+.login-container .login-section .link,
+.signup-container .signup-section .link {
+  text-align: center;
+  margin: 0;
+}
+
+.nav-section {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: #000 1px solid;
+  height: 4em;
+}
+
+.nav-section ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5em 1em;
+  list-style: none;
+  padding-top: 0;
+}
+
+.nav-section ul li {
+  margin: 0 1em;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.nav-section ul li a {
+  text-decoration: none;
+  color: #000;
+  font-weight: bold;
+}
+
+.nav-section ul .teamwork {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.nav-section ul .icons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 7em;
+}
+
+.nav-section ul .icons li {
+  margin: 0;
+}
+
+.nav-section ul .icons li:hover,
+.nav-section ul .teamwork:hover {
+  opacity: 0.5;
+}
+
+.search-section {
+  margin: 6em 2em 2em 6.5%;
+}
+
+.search-section .input {
+  margin: 0.625em;
+  padding: 0.625em;
+  width: 17em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
+
+.project-section {
+  padding: 1.2% 2% 0.8% 7%;
+}
+
+.project-section .section-title {
+  margin: 0.5em 2em 1em 0;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.project-section .card {
+  display: grid;
+  margin: 0 1em 0.5em 0;
+  height: 9em;
+  width: 19em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  padding: 1em;
+}
+
+.project-section .create-project {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-section .card:hover,
+.project-section .card:hover {
+  background-color: #d1c8c8;
+}
+
+.project-section .existing-projects .project-title {
+  display: flex;
+  margin: 0;
+}
+
+.project-section .existing-projects .project-title .project-name {
+  margin: 0 0.3em;
+}
+
+.project-section .existing-projects .project-details p {
+  margin: 0;
+}
+
+.project-section .existing-projects .users-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 2.5em 0;
+}
+
+.project-section .existing-projects .users-details .no-users {
+  width: 5em;
+  height: 1.5em;
+  border-radius: 3px;
+  text-align: center;
+  background-color: #999191;
+  margin-right: 7.3em;
+}
+
+.project-section .project-list {
+  grid-template-columns: repeat(3, 23rem);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 0.625em;
+  column-gap: 0.625em;
+}
+
+ .project-list-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.create-section .card-body {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 15em;
+  width: 23em;
+  border: 2px solid #000;
+  border-radius: 1em;
+  padding: 0;
+}
+
+.create-section  {
+  height: auto;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-section .card-body .card-title {
+  text-align: center;
+  margin: 0;
+}
+
+.create-section .card-body .input {
+  padding: 0.625em;
+  width: 18em;
+  height: 2.2em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  text-align: center;
+  margin: 2em 1.5em 2em 3.5em;
+}
+
+.create-section .card-body .button {
+  padding: 0.625em;
+  width: 15em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+  color: #000;
+  cursor: pointer;
+  margin: 0em 1.5em 2.5em 5.5em;
+}
+
+.create-section .card-body .button:hover {
+  background-color: #fff;
+}
+
+.hide {
+  display: none;
+}
+
+.create-section .card-body svg {
+  margin: 0.5em 0 0 20em;
+  position: relative;
+}
+
+.create-section .card-body svg:hover {
+  opacity: 0.5;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 20px;
+  z-index: 10000;
+}
+
+.profileOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+
+}
+
+.profile-section .profile-card {
+    align-items: center;
+    border-radius: 4px;
+    box-shadow: 0 1px 8px 1px #121212b0;
+    display: flex;
+    flex-direction: column;
+    min-height: 200px;
+    position: fixed;
+    right: 10px;
+    top: 75px;
+    transition: right .3s ease-out;
+    width: 290px;
+    z-index: 3;
+}
+
+
+
+.profile-section .profile-card .close-icon {
+  margin: 0.5em 0 0 16em;
+  position: relative;
+}
+
+.profile-section .profile-card .close-icon:hover {
+  opacity: 0.5;
+}
+
+.task-bar {
+  display: flex;
+  flex-direction: row;
+  margin: 6em 2em 2em 6.5%;
+}
+
+.task-bar .area {
+  margin: 0.625em;
+  width: 7em;
+  height: 1.5em;
+  background-color: #999191;
+  text-align: center;
+  border-radius: 3px;
+  padding: 0.2em;
+  display: flex;
+}
+
+.task-bar .area svg {
+  margin-left: 0.4em;
+}
+
+
+.task-bar .area p {
+  margin: 0 0 0 0.3em;
+  
+}
+
+.task-bar .input {
+  margin: 0.625em;
+  padding: 0.625em;
+  width: 17em;
+  border: 1px solid #000;
+  border-radius: 0.5em;
+}
