@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Setap Team 6D'
+copyright = '2024, Setap Team 6D'
+author = 'Evie'
 
 release = '0.1'
 version = '0.1.0'
